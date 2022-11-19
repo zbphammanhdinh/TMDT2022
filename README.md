@@ -1,12 +1,20 @@
 # TMDT2022
 
-Nhóm đề tài 2 sử dụng docker để ảo hóa server ubuntu
+## Nhóm đề tài 2 sử dụng docker để ảo hóa server ubuntu
 
-Thành viên:
-Phạm Mạnh Đình - 17110122
-Đoàn Văn Đức - 17110126
+<p>Thành viên</p>
+<p>Phạm Mạnh Đình - 17110122</p>
+<p>Nguyễn Thế Đoàn - 17110124</p>
+<p>Đoàn Văn Đức - 17110126</p>
 
-CÁC BƯỚC THỰC HIỆN
+## Thực hiện xây dựng website có các chức năng: khởi tạo container, tắt container, quản lý user sử dụng container
+- Trang website giúp người dùng kết nối tới máy chủ EC2 sau đó thực hiện các chức năng: khởi tạo container, tắt container, quản lý user sử dụng container.
+- Người dùng có thể đăng ký tài khoản.
+- Admin có thể qug lý người dùng, quản lý các container.
+- Các container mà nhóm có thể tạo: container ubuntu, container centos.
+- Khi người dùng tạo container có thể lựa chọn server, chọn dung lượng ram, số cpu, ...
+
+## Các bước 
 
 
 
@@ -20,7 +28,6 @@ Các bước để tạo một Ubuntu Instance trong AWS:
 o	Bước 1: Đăng nhập bằng tải khoản AWS của bạn và đi đến bảng điều khiển.
 o	Bước 2: Nhấn vào biểu tượng Services, tìm kiếm EC2 bấm chọn.
 o	Bước 3: Phía trên góc phải của trang Amazon EC2, bấm chọn Region (vùng) mà bạn muốn tạo EC2 Instance. Ở đây, mình nhắn chọn vùng Asia Pacific (Singapore) vì máy chủ ở đây gần Việt Nam nhất nên chúng sẽ cho tốc độ truyền tải thông tin nhanh.
- <img width="468" alt="image" src="https://user-images.githubusercontent.com/46060483/202843093-00e5ea40-23f6-4bbb-955e-9013a57262c2.png">
 
 o	Bước 4: Bấm chọn Launch Instance ở EC2 Dashboard.
  
