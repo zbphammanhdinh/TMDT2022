@@ -16,7 +16,7 @@
 
 ## Các bước cài đặt
 
-### Bước 1: Tạo máy chủ ảo EC2 INSTANCE UBUNTU 22.04 TRÊN AMAZON AWS
+## Bước 1: Tạo máy chủ ảo EC2 INSTANCE UBUNTU 22.04 TRÊN AMAZON AWS
 <p>Cần chuẩn bị: Một tài khoản AWS</p>
 <p>Tất cả các thành lập sau đây là Free tier cho phép bạn sử dụng miễn phí dịch vụ trong hạn mức nhất định do AWS quy định.</p>
 <p>Các bước để tạo một Ubuntu Instance trong AWS:</p>
@@ -67,7 +67,7 @@
 <img src="src/Picture17.png">
 <img src="src/Picture18.png">
 
-### Bước 2: Cài đặt docker trên máy chủ ảo EC2 INSTANCE UBUNTU 22.04 TRÊN AMAZON AWS
+## Bước 2: Cài đặt docker trên máy chủ ảo EC2 INSTANCE UBUNTU 22.04 TRÊN AMAZON AWS
 
 <p>Với hệ điều hành Mac OS và Ubuntu thì cách thức và dòng lệnh tương tự nhau nên có thể 
 Kết nối qua SSH thường được thực hiện thông qua sự xác thực của public key, yêu cầu người dùng có sẳn Private key của họ. Thông thường chúng ta có thể tạo cặp public key-private key bằng công cụ cửa bên thứ ba và sau đó thêm public key trên Amazon EC2 hoặc một cách khác là từ chính EC2 Instance.</p>
@@ -95,7 +95,7 @@ Các lỗi thường xảy ra khi SSH đến EC2 Instance:</p>
 </ul>
 <p>Permision denied: Permission denied (publickey,gssapi-keyex,gssapi-with-mic) đây là một trong những lỗi phổ biến khi kết nối SSG với Instance. Vì vậy phải đảm bảo private key mà bạn sử dụng trong quá trình kết nối SSH và cặp khóa bạn đã chọn trước đó phải trùng khớp. nếu chúng không khớp, bạn sẽ nhận lỗi như trên.</p>
 
-### Bước 3: Kết nối Ubuntu EC2 với Visual studio code trên máy tính cục bộ (máy tính cá nhân)
+## Bước 3: Kết nối Ubuntu EC2 với Visual studio code trên máy tính cục bộ (máy tính cá nhân)
 <p>Trong phần này, mình hướng dẫn các bạn cách kết nối VS Code IDE (Visual studio code IDE) cụ bộ của bạn với phiên bản EC2 đang chạy trong mạng con riêng tư bằng cách sử dụng trình quản lý phiên AWS Systems Manager và Đăng nhập một lần AWS (SSO).</p>
 <p>Điều này rất hữu ích khi bạn muốn tận dụng các chức năng của phiên bản EC2, đồng thời có kinh nghiệm phát triển dự án.</p>
 <p>Các điều kiện tiên quyết: cài đặt phần mềm Visual studio code IDE, đã thiết lập tạo máy chủ ảo EC2 Instance Ubuntu 22.04 trên Amazon AWS (mục 1), cài đặt Remote Developmnet extention trong visual stuido code (như hình).</p>
@@ -129,7 +129,10 @@ Các lỗi thường xảy ra khi SSH đến EC2 Instance:</p>
 <img src="src/Picture41.png">
 <br>
 <img src="src/Picture42.png">
-### Bước 4: Lập trình webiste python django - docker - ec2
+<br>
+
+## Bước 4: Lập trình webiste python django - docker - ec2
+
 <img src="src/Picture22.jpg">
 <br>
 <img src="src/picture24.jpg">
