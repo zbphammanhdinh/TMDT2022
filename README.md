@@ -130,12 +130,18 @@ Các lỗi thường xảy ra khi SSH đến EC2 Instance:</p>
 <br>
 <img src="src/Picture42.png">
 ### Bước 4: Lập trình webiste python django - docker - ec2
-<img src="src/picture22.jpg">
+<img src="src/Picture22.jpg">
+<br>
 <img src="src/picture24.jpg">
+<br>
 <img src="src/picture25.jpg">
+<br>
 <img src="src/picture26.jpg">
+<br>
 <img src="src/picture27.jpg">
-<img src="src/picture28.jpg">
+<br>
 <img src="src/picture29.jpg">
+<br>
 <img src="src/picture30.jpg">
+<br>
 <img src="src/picture31.jpg">
